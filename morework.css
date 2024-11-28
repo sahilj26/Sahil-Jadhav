@@ -1,0 +1,102 @@
+@import url("https://db.onlinewebfonts.com/c/f69f3d5d6ff0e344d05c92cee27fc931?family=Toronto+Gothic");
+@font-face {
+    font-family: "Toronto Gothic";
+    src: url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.eot");
+    src: url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.eot?#iefix") format("embedded-opentype"),
+         url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.ttf") format("truetype"),
+         url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.svg#Toronto Gothic") format("svg");
+}
+
+/* Apply globally to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Toronto Gothic", Arial, sans-serif;
+}
+
+/* Example: Specific to headings */
+header h1 {
+    font-family: "Toronto Gothic", Arial, sans-serif;
+    font-size: 2rem;
+}
+
+img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: "Toronto Gothic", Arial, sans-serif;
+}
+
+
+header {
+    background: #292e31;
+    color: #f8ecdc;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+header nav a {
+    color: #f8ecdc;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f8ecdc;
+    line-height: 1.6;
+    color: #292e31;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+.grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image-overlay {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.image-overlay img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}

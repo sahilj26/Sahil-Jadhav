@@ -1,0 +1,168 @@
+@import url("https://db.onlinewebfonts.com/c/f69f3d5d6ff0e344d05c92cee27fc931?family=Toronto+Gothic");
+@font-face {
+    font-family: "Toronto Gothic";
+    src: url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.eot");
+    src: url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.eot?#iefix") format("embedded-opentype"),
+         url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.ttf") format("truetype"),
+         url("https://db.onlinewebfonts.com/t/f69f3d5d6ff0e344d05c92cee27fc931.svg#Toronto Gothic") format("svg");
+}
+
+/* Apply globally to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Toronto Gothic", Arial, sans-serif;
+}
+
+/* Example: Specific to headings */
+header h1 {
+    font-family: "Toronto Gothic", Arial, sans-serif;
+    font-size: 2rem;
+}
+
+img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: "Toronto Gothic", Arial, sans-serif;
+}
+
+body {
+    background-color: #f8ecdc;
+    line-height: 1.6;
+    color: #292e31;
+}
+
+header {
+    background: #292e31;
+    color: #f8ecdc;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+header nav a {
+    color: #f8ecdc;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+color: #292e31;
+}
+
+#portfolio {
+    padding: 2rem;
+    text-align: center;
+    background: #f8ecdc;
+}
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #292e31;
+    color: #f8ecdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    padding: 2rem;
+    background: #f8ecdc;
+}
+
+form {
+    margin-left: auto;
+    max-width: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #292e31;
+    color: #f8ecdc;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+form button:hover {
+    background: #444;
+}
+
+footer {
+    background: #292e31;
+    color: #f8ecdc;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.swiper-slide {
+    display: flex !important;
+}
+
+.swiper {
+    overflow: unset !important;}
+
+/* Neon Button Styling */
+
+.neon-button {
+    
+    background-color: transparent;
+    color: #292e31;
+    border: 2px solid #292e31;
+    padding: 10px 30px;
+    font-size: 35px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.4s, color 0.4s;
+    overflow: hidden;
+}
